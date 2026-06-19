@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('https://getwallpapers.com/wallpaper/full/7/a/6/1012518-stars-backgrounds-1920x1200-mac.jpg');
+    background-size: cover;
+    height: 100vh;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+}
+
+#top {
+    background-color:rgba(0, 0, 0, 0.3) ;
+    /* background-image: url('https://getwallpapers.com/wallpaper/full/7/a/6/1012518-stars-backgrounds-1920x1200-mac.jpg'); */
+    background-size: cover;
+    height: 120px;
+    margin-top: 0vw;
+    margin-left: 0vw;
+    text-align: center;
+    position: sticky;
+}
+
+.upper {
+    color: aliceblue;
+    margin: 0;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+#menu a{
+    text-decoration: none;
+    color: rgb(26, 97, 97);
+}
+hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hero img{
+    width: 300px;
+    max-width: 35vw;
+    height: auto;
+}
+#intro{
+    color: azure;
+    text-align: center;
+}
