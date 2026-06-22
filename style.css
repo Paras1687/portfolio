@@ -79,6 +79,7 @@ body {
 }
 
 #aboutme ul {
+    list-style-type: none;
     padding: 6vw;
     display: flex;
     flex-direction: column;
@@ -185,6 +186,10 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 1px 1px 8px rgba(0, 191, 255, 0.5)
+}
+
+#contact li{
+    list-style-type: none;
 }
 
 #contact p{
