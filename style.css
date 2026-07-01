@@ -123,7 +123,7 @@ body {
 #skillset {
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); */
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     place-items: center;
 }
@@ -131,6 +131,7 @@ body {
 .skill img {
     border-radius: 50%;
     height: 8vw;
+    object-fit: contain;
 }
 
 .skill {
@@ -142,6 +143,10 @@ body {
     /* background: rgba(255, 255, 255, 0.05); */
     /* border: 1px solid rgba(123, 104, 238, 0.3); */
     /* border-radius: 18px; */
+}
+
+#skillset p {
+    color: aliceblue;
 }
 
 .skill img:hover {
